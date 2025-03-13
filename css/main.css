@@ -1,0 +1,188 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+	/* 以下、キービジュアルのテキスト位置調整のために追加 */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* ここまで */
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* 以下、CONCEPTセクションのレイアウト調整のため追加 */
+.concept_inner {
+	display: flex;
+	justify-content: space-between;
+}
+.concept_inner p {
+	width: 60%;
+}
+.concept_inner img {
+	width: 35%;
+}
+/* ここまで */
+
+/* 以下、MENUセクションの背景画像表示のため追加 */
+.menu {
+	background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
+	background-attachment: fixed;
+}
+/* ここまで */
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+
+/* 以下、レコメンドメニューレイアウト調整のため追加 */
+.recomended_menu_list {
+	display: flex;
+	justify-content: space-between;
+}
+.blueberry_pancakes {
+	display: flex;
+	width: 49%;
+}
+.blueberry_pancakes img {
+	width: 55%;
+	object-fit: contain;
+}
+.strawberry_pancakes {
+	display: flex;
+	width: 49%;
+}
+.strawberry_pancakes img {
+	width: 55%;
+	object-fit: contain;
+}
+/* ここまで */
+
+/* 以下、コーヒーメニューレイアウト調整のため追加 */
+.coffee_menu_list {
+	display: flex;
+	padding: 20px;
+	background-color: #fff;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.coffee_menu_list li {
+	width: 49%;
+	display: flex;
+	align-items: center;
+}
+/* ここまで */
+
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+/* 以下、アクセスレイアウト調整のために追加 */
+.access_info {
+	display: flex;
+}
+.access_info dt {
+	width: 80px;
+}
+.map {
+	width: 100%;
+}
+/* ここまで */
+/*以下、フッターレイアウト調整 */
+
+footer {
+	background-color: #251e19;
+	height: 75px;
+}
+.footer_item {
+	color: #fff;
+	text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.footer_menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer_menu img {
+	height: 35px;
+}
+footer p {
+	text-align: center;
+	color: #fff;
+}
+
+
